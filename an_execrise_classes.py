@@ -5,8 +5,12 @@ class Employee:
         self.last = last
         self.pay = pay
         self.email = first + "." + last + "@company.com"
+
     def fullname(self):
         return self.first + " " + self.last
+
+    def empty_string(self):
+        print('')
 
 empl_1 = Employee("Josh", "Bupper", 10000)
 empl_2 = Employee("Jogger", "Roud", 200)
