@@ -15,4 +15,4 @@ print(empl_1)
 
 
 
-print(empl_1.email + "   " + empl_2.first)
+print(empl_1.email + "   " + empl_2.fullname())
